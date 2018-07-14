@@ -1,0 +1,30 @@
+# start tracking the existing directory(add hidden subFloder .git)
+git init
+
+# creates a local copy of a project that already exists remotely. 
+git clone
+
+# stage a a change
+git add
+
+# take everything that is beging stage and creating a snaphot of the changes
+git commit  
+
+#shows the status of changes as untracked, modified, or staged.
+git status
+git diff
+
+# update local copy from remote changes
+git pull
+
+#updates the remote repository with any commits made locally to a branch.
+git push 
+
+# view all local branches
+git branch
+
+# create a new branch to store any new changes
+git branch my-branch
+
+# switch to that branch 
+git checkout my-branch
