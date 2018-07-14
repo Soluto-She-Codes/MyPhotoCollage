@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Photo Colaze</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/my-photo-collage.css" rel="stylesheet" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/my-photo-collage.js"></script>
+</head>
+
+<body>
+    <div id="collage">
+        <h2>She Codes Colaze</h2>
+        <hr />
+        <div style=" border: 1px dashed #9999FF;
+        box-shadow: 0 0 0 3px #fff, 0 0 0 5px #9999FF, 0 0 0 10px #fff, 0 0 2px 10px #eee;  display:inline-block; margin:auto;vertical-align:top;">
+            <ul id="images-view" class="images-view"></ul>
+        </div>
+
+        <script>
+            var images = [
+                { src: 'images/2.jpg', title: 'Google1' },
+                { src: 'images/3.jpg', title: 'Google2' },
+                { src: 'images/4.jpg', title: 'Google3' },
+            ];
+
+            $(function () {
+                var gridSize = $('#levelPanel :radio:checked').val();
+                photoCollage.displayImages(images, 3);
+            });
+        </script>
+    </div>
+</body>
+
+</html>
