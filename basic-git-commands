@@ -12,6 +12,7 @@ git commit
 
 #shows the status of changes as untracked, modified, or staged.
 git status
+git diff
 
 # update local copy from remote changes
 git pull
