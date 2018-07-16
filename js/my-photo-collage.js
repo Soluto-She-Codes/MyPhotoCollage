@@ -24,7 +24,6 @@ var photoCollage = {
                 'margin': '10px',
             });
             $('#images-view').append(li);
-            $(li).onclick= ()=> window.location.href="1.html"
         }
        
     }
