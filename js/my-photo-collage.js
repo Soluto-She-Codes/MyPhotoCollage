@@ -13,7 +13,7 @@ var photoCollage = {
                 imageIndex++;
                 
             }
-            // take photo that we didnt display yet
+            //  take photo that we didnt display yet
             else {
                 var image = images[Math.floor(Math.random() * images.length)];
             }
