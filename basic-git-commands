@@ -4,11 +4,17 @@ git init
 # creates a local copy of a project that already exists remotely. 
 git clone
 
-# stage a a change
+# stage a change
 git add
 
+# including all corrections
+git add .
+
 # take everything that is beging stage and creating a snaphot of the changes
-git commit  
+git commit 
+
+# same with message
+git commit -m "text of your message" 
 
 #shows the status of changes as untracked, modified, or staged.
 git status
